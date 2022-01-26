@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style media="screen">
+    .center {
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      border: 5px solid #0000;
+      padding: 10px;
+      }
+    </style>
+</head>
+<body>
+  <div class="center">
+    <h2>User Register</h2>
+    <form action="/register" method="post">
+        <label for="">Enter Name</label><br>
+        <input type="text" name="name" required><br>
+        <label for="">Username</label><br>
+        <input type="text" name="username" required><br>
+        <label for="">Password</label><br>
+        <input type="password" name="password" required><br>
+        <input type="submit" value="Register"><br>
+    </form>
+    <hr><div class="">
+      Already have an account? <a href="/login">Login</a>
+    </div>
+  </div>
+</body>
+</html>
