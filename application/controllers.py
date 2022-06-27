@@ -61,7 +61,7 @@ def index():
     query="""SELECT * from decks WHERE username = ?"""
     cur.execute(query,(username,))
     rows=cur.fetchall()
-    print(username)
+    # print(username)
     # print(session)
     return render_template('index.html',rows=rows, username = username)
 
@@ -70,6 +70,7 @@ def createdeck():
     if request.method=="POST":
         username=session['username']
         deckname=request.form['deckname']
+        deckname = deckname.capitalize()
         conn=sqlite3.connect("project.db")
         cur=conn.cursor()
         query="""INSERT INTO decks(username,deckname)  VALUES (?,?)"""

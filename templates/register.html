@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Register</title>
     <style media="screen">
     .center {
-      position: absolute;
-      left: 50%;
+      position: absolute; 
       top: 40%;
-      transform: translate(-50%, -50%);
-      border: 5px solid #0000;
-      padding: 10px;
       }
     </style>
 </head>
 <body>
-  <div class="center">
-    <h2>User Register</h2>
-    <form action="/register" method="post">
-        <label for="">Enter Name</label><br>
-        <input type="text" name="name" required><br>
-        <label for="">Username</label><br>
-        <input type="text" name="username" required><br>
-        <label for="">Password</label><br>
-        <input type="password" name="password" required><br>
-        <input type="submit" value="Register"><br>
-    </form>
-    <hr><div class="">
-      Already have an account? <a href="/login">Login</a>
+  <div class="row">
+    <div class="col-4">
+
     </div>
+    <div class="col-4" style="margin-top: 10%">
+      <h2 class="text-center">User Register</h2>
+      <hr>
+      <form action="/register" method="post">
+        <label for="">Enter Name</label> 
+        <br>
+        <input type="text" name="name" required>
+        <br>
+        <label for="">Username</label>
+        <br>
+        <input type="text" name="username" required>
+        <br>
+        <label for="">Password</label>
+        <br>
+        <input type="password" name="password" required>
+        <br><br>
+        <div class="row">
+          <div class="col-md-6"><input class="btn btn-outline-success" type="submit" value="Register"></div>
+          <div class="col-md-6">
+            Already have an account? <a class="btn btn-outline-success" href="/login">Login</a>
+          </div>
+        </div>
+       
+      </form>
+      <hr>
+    </div>
+    <div class="col-4">
+      
+    </div> 
   </div>
 </body>
 </html>
