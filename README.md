@@ -32,8 +32,8 @@ Creating better login and logout system and working on ORM for the database.
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="1" src="readme_resources/1.jpg"> | <img width="1604" alt="2" src="readme_resources/2.jpg">|<img width="1604" alt="3" src="readme_resources/3.jpg">|
-|<img width="1604" alt="4" src="readme_resources/back3.jpg">  |  <img width="1604" alt="5" src="readme_resources/dietback.jpg">|<img width="1604" alt="6" src="readme_resources/solnimg.png">
+|<img width="1604" alt="1" src="readme_resources/1.png"> | <img width="1604" alt="2" src="readme_resources/2.png">|<img width="1604" alt="3" src="readme_resources/3.png">|
+|<img width="1604" alt="4" src="readme_resources/4.png">  |  <img width="1604" alt="5" src="readme_resources/5.png">|<img width="1604" alt="6" src="readme_resources/6.png">
 
 
 
